@@ -1,3 +1,8 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/dart
+# Edit at https://www.toptal.com/developers/gitignore?templates=dart
+
+### Dart ###
 # See https://www.dartlang.org/guides/libraries/private-files
 
 # Files and directories created by pub
@@ -11,6 +16,9 @@ pubspec.lock
 # If you don't generate documentation locally you can remove this line.
 doc/api/
 
+# dotenv environment variables file
+.env*
+
 # Avoid committing generated Javascript files:
 *.dart.js
 *.info.json      # Produced by the --dump-info flag.
@@ -20,4 +28,15 @@ doc/api/
 *.js.deps
 *.js.map
 
-appwrite.json
+.flutter-plugins
+.flutter-plugins-dependencies
+
+### Dart Patch ###
+# dotenv environment variables file
+.env
+
+# End of https://www.toptal.com/developers/gitignore/api/dart
+
+# OS
+## Mac
+.DS_Store
